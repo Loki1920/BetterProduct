@@ -1,0 +1,63 @@
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+wheels/
+*.whl
+.eggs/
+
+# ── Virtual environments ──────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+.env.local
+.env.*.local
+
+# ── Environment / secrets ─────────────────────────────────────────────────────
+.env
+
+# ── Database ──────────────────────────────────────────────────────────────────
+*.db
+*.sqlite
+*.sqlite3
+betterproduct.db
+
+# ── Playwright ────────────────────────────────────────────────────────────────
+playwright-report/
+test-results/
+
+# ── Streamlit ─────────────────────────────────────────────────────────────────
+.streamlit/secrets.toml
+
+# ── Jupyter ───────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ── IDE / editors ─────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ── Logs ──────────────────────────────────────────────────────────────────────
+*.log
+logs/
+
+# ── Coverage / testing ────────────────────────────────────────────────────────
+.coverage
+.pytest_cache/
+htmlcov/
+.tox/
+
+# ── sentence-transformers cache ───────────────────────────────────────────────
+.cache/

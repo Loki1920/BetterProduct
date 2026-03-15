@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cmd.exe /c \"del /f D:\\\\BetterProduct\\\\betterproduct.db\" 2>&1 || echo \"file not found or busy - stop streamlit first\")",
+      "Bash(cmd.exe /c \"if exist D:\\\\BetterProduct\\\\betterproduct.db \\(echo stop streamlit first then run: del D:\\\\BetterProduct\\\\betterproduct.db\\) else \\(echo no cache file found\\)\")",
+      "Bash(sqlite3:*)"
+    ]
+  }
+}
